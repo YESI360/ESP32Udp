@@ -161,6 +161,7 @@ void step() {
     display.setTextSize(2);             // Draw 2X-scale text
     display.setTextColor(WHITE);
     display.setCursor(5, 16);
+    display.println(F("CHEST"));
 
     display.setTextSize(4);             // Draw 2X-scale text
     display.setTextColor(WHITE);
